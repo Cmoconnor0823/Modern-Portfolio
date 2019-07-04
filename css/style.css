@@ -109,7 +109,7 @@ section .section_header {
   margin-bottom: 50px; }
 
 section .section_header h2 {
-  text-transform: uppercase;
+  text-transform: none;
   font-family: "Opensans", sans-serif;
   font-size: 3.1rem;
   margin: 0;
@@ -460,9 +460,9 @@ section .section_header h2::after {
 }
 
 .head_bg .content_head .content_name .name{
-  font-size: 6.3rem;
-  text-transform: uppercase;
-  font-family: roboto,sans-serif;
+  font-size: 4.3rem;
+  text-transform: none;
+  font-family: Opensans, sans-serif;
   font-weight: 700;
   padding: 0;
   margin: 0;
@@ -481,14 +481,14 @@ section .section_header h2::after {
 }
 
 .head_bg .content_head .content_prof p {
-  font-family: Satisfy,sans-serif;
-  font-size: 3.3rem;
+  font-family: Pacifico,sans-serif;
+  font-size: 2.7rem;
   font-weight: 400;
   text-transform: none;
   padding: 0;
   margin: 30px 0;
   line-height: 1;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   -webkit-animation-duration: .5s;
   -webkit-animation-delay: 2.3s;
 }
