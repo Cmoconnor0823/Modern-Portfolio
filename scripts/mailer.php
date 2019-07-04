@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "Cmoconnor0823@gmail.com";
+        $recipient = "cmoconnor0823@gmail.com";
 
         // Set the email subject.
         $subject = "New Portfolio contact from $name";
