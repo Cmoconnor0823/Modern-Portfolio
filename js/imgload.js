@@ -100,39 +100,39 @@ $.fn.masonryFilter = function (options) {
       };
 
       var $images = [];
-      var $img = 17; //the maximum number of uploaded images
+      var $img = 11; //the maximum number of uploaded images
       for (var i = 6; i <= $img; i++) {
       	$images[i] = i;
       }
 
 //button "view more" configuration
 function getItem(image) {
-  var img_text = 'COMMERCIAL DESIGN';
+  var img_text = 'Personal and Commercial Baking';
 	var n = '<a href="img/portfolio/pic' + image + '.jpg" class="popup"><div class="img_hover"><p>' + img_text + '</p></div></a>';
-  var img_nature = 'data-filter="one"';
-  var img_people = 'data-filter="two"';
-  var img_commercial = 'data-filter="three"';
+  //var img_PageProj = 'data-filter="one"';
+  //var img_Games = 'data-filter="two"';
+  var img_Baking = 'data-filter="three"';
   if (image % 3 == 0) {
     if (image % 2 == 0) {
-    return '<div ' + img_nature + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+    return '<div ' + img_Baking + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
     }
     else {
-    return '<div ' + img_nature + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+    return '<div ' + img_Baking + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
     }
   }
 	if (image % 2 == 0) {
 		if ((image % 10 == 0) || (image % 16 == 0)) {
-			return '<div ' + img_people + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+			return '<div ' + img_Baking + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
 		}
 		else {
-			return '<div ' + img_people + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+			return '<div ' + img_Baking + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
 		}
 	}
 	else {
     if ((image % 11 == 0) || (image % 17 == 0)) {
-      return '<div ' + img_commercial + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+      return '<div ' + img_Baking + ' class="grid-item w1">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
     }
-		  return '<div ' + img_commercial + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
+		  return '<div ' + img_Baking + ' class="grid-item w2">' + n + '<img src="img/portfolio/pic' + image + '.jpg" alt="pic' + image + '.jpg"/></div>';
 	}
 
 }
