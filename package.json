@@ -1,0 +1,19 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "Caitlin's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cmoconnor0823/Modern-Portfolio.git"
+  },
+  "author": "Caitlin O'Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cmoconnor0823/Modern-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Cmoconnor0823/Modern-Portfolio#readme"
+}
