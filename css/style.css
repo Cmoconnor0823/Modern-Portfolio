@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*
-  Title: John
+  Title: Caitlin
 */
 
 /* ---------------------------------------------------------------------- */
@@ -699,6 +699,7 @@ section .about_content {
         font-size: 2.7rem;
         background: #fff;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 10px; }
     }
@@ -708,6 +709,9 @@ section .about_content {
     line-height: 1;
     font-family: "Opensans", sans-serif;
     font-weight: normal; }
+    .skills_content{
+      background: #f5f1f4;
+    }
   #skills .skills_content p {
     font-family: "Titilliumweb", sans-serif;
     padding-top: 15px;
